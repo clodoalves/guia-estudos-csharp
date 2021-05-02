@@ -40,7 +40,7 @@ namespace ReferenciandoObjetos
             c1.Telefone = "9999999999";
 
             Cliente c2;
-            c2 = c1; //aponta para a mesma posicao de memoria de c1
+            c2 = c1; //c2 aponta para a mesma posicao de memoria de c1
             c2.Nome = "Joao";
 
             Console.WriteLine(c1);
