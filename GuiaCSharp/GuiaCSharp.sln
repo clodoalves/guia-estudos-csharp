@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-ReferenciandoObjetos", "2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-EstruturasCSharp", "AssessoresEPropriedades\3-EstruturasCSharp.csproj", "{1A4DEE79-DDB8-45DA-B8C0-378F1F5F3375}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstrutoresEOverloads", "ConstrutoresEOverloads\ConstrutoresEOverloads.csproj", "{320236A4-EDA1-4CB6-9BB0-BDDAC6890191}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1A4DEE79-DDB8-45DA-B8C0-378F1F5F3375}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A4DEE79-DDB8-45DA-B8C0-378F1F5F3375}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A4DEE79-DDB8-45DA-B8C0-378F1F5F3375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{320236A4-EDA1-4CB6-9BB0-BDDAC6890191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{320236A4-EDA1-4CB6-9BB0-BDDAC6890191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{320236A4-EDA1-4CB6-9BB0-BDDAC6890191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{320236A4-EDA1-4CB6-9BB0-BDDAC6890191}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
