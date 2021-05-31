@@ -9,9 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-ReferenciandoObjetos", "2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-EstruturasCSharp", "AssessoresEPropriedades\3-EstruturasCSharp.csproj", "{1A4DEE79-DDB8-45DA-B8C0-378F1F5F3375}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstrutoresEOverloads", "ConstrutoresEOverloads\ConstrutoresEOverloads.csproj", "{320236A4-EDA1-4CB6-9BB0-BDDAC6890191}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-ConstrutoresEOverloads", "ConstrutoresEOverloads\4-ConstrutoresEOverloads.csproj", "{320236A4-EDA1-4CB6-9BB0-BDDAC6890191}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetodosAcessores", "MetodosAcessores\MetodosAcessores.csproj", "{88F40960-5872-4299-B6E0-8E1B57293120}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-MetodosAcessores", "MetodosAcessores\5-MetodosAcessores.csproj", "{88F40960-5872-4299-B6E0-8E1B57293120}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6-AcessoresEPropriedades", "AcessoresEPropriedades\6-AcessoresEPropriedades.csproj", "{351E8D02-1E97-4620-932F-82CFC6F40A44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{88F40960-5872-4299-B6E0-8E1B57293120}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88F40960-5872-4299-B6E0-8E1B57293120}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88F40960-5872-4299-B6E0-8E1B57293120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{351E8D02-1E97-4620-932F-82CFC6F40A44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{351E8D02-1E97-4620-932F-82CFC6F40A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{351E8D02-1E97-4620-932F-82CFC6F40A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{351E8D02-1E97-4620-932F-82CFC6F40A44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
