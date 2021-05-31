@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-EstruturasCSharp", "Asses
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstrutoresEOverloads", "ConstrutoresEOverloads\ConstrutoresEOverloads.csproj", "{320236A4-EDA1-4CB6-9BB0-BDDAC6890191}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetodosAcessores", "MetodosAcessores\MetodosAcessores.csproj", "{88F40960-5872-4299-B6E0-8E1B57293120}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{320236A4-EDA1-4CB6-9BB0-BDDAC6890191}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{320236A4-EDA1-4CB6-9BB0-BDDAC6890191}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{320236A4-EDA1-4CB6-9BB0-BDDAC6890191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88F40960-5872-4299-B6E0-8E1B57293120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88F40960-5872-4299-B6E0-8E1B57293120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88F40960-5872-4299-B6E0-8E1B57293120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88F40960-5872-4299-B6E0-8E1B57293120}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
