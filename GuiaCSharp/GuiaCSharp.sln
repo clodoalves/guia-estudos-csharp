@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-AlocacaoMemoriaDotNet", "TrabalhandoComTipoEObjetos\1-AlocacaoMemoriaDotNet.csproj", "{4EF9CACE-2BB8-4A91-8829-C06873778322}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-ReferenciandoObjetos", "2-ReferenciandoObjetos\2-ReferenciandoObjetos.csproj", "{7321BF63-3E59-40EC-883B-0585961C0EE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-EstruturasCSharp", "AssessoresEPropriedades\3-EstruturasCSharp.csproj", "{1A4DEE79-DDB8-45DA-B8C0-378F1F5F3375}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-AlocacaoMemoriaDotNet", "1-AlocacaoMemoriaDotNet\1-AlocacaoMemoriaDotNet.csproj", "{4EF9CACE-2BB8-4A91-8829-C06873778322}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-ConstrutoresEOverloads", "ConstrutoresEOverloads\4-ConstrutoresEOverloads.csproj", "{320236A4-EDA1-4CB6-9BB0-BDDAC6890191}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-EstruturasCSharp", "3-EstruturasCSharp\3-EstruturasCSharp.csproj", "{1A4DEE79-DDB8-45DA-B8C0-378F1F5F3375}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-MetodosAcessores", "MetodosAcessores\5-MetodosAcessores.csproj", "{88F40960-5872-4299-B6E0-8E1B57293120}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-ConstrutoresEOverloads", "4-ConstrutoresEOverloads\4-ConstrutoresEOverloads.csproj", "{320236A4-EDA1-4CB6-9BB0-BDDAC6890191}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6-AcessoresEPropriedades", "AcessoresEPropriedades\6-AcessoresEPropriedades.csproj", "{351E8D02-1E97-4620-932F-82CFC6F40A44}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-MetodosAcessores", "5-MetodosAcessores\5-MetodosAcessores.csproj", "{88F40960-5872-4299-B6E0-8E1B57293120}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6-AcessoresEPropriedades", "6-AcessoresEPropriedades\6-AcessoresEPropriedades.csproj", "{351E8D02-1E97-4620-932F-82CFC6F40A44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7-PropriedadesAutomaticas", "7-PropriedadesAutomaticas\7-PropriedadesAutomaticas.csproj", "{72B016BA-905D-4705-8A17-DD178532BF6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,14 +23,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4EF9CACE-2BB8-4A91-8829-C06873778322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4EF9CACE-2BB8-4A91-8829-C06873778322}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4EF9CACE-2BB8-4A91-8829-C06873778322}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4EF9CACE-2BB8-4A91-8829-C06873778322}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7321BF63-3E59-40EC-883B-0585961C0EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7321BF63-3E59-40EC-883B-0585961C0EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7321BF63-3E59-40EC-883B-0585961C0EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7321BF63-3E59-40EC-883B-0585961C0EE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EF9CACE-2BB8-4A91-8829-C06873778322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EF9CACE-2BB8-4A91-8829-C06873778322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EF9CACE-2BB8-4A91-8829-C06873778322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EF9CACE-2BB8-4A91-8829-C06873778322}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1A4DEE79-DDB8-45DA-B8C0-378F1F5F3375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1A4DEE79-DDB8-45DA-B8C0-378F1F5F3375}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A4DEE79-DDB8-45DA-B8C0-378F1F5F3375}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +47,10 @@ Global
 		{351E8D02-1E97-4620-932F-82CFC6F40A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{351E8D02-1E97-4620-932F-82CFC6F40A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{351E8D02-1E97-4620-932F-82CFC6F40A44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72B016BA-905D-4705-8A17-DD178532BF6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B016BA-905D-4705-8A17-DD178532BF6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B016BA-905D-4705-8A17-DD178532BF6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B016BA-905D-4705-8A17-DD178532BF6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
