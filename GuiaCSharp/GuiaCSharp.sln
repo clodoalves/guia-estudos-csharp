@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7-PropriedadesAutomaticas",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8-InicializadoresDeObjetos", "8-InicializadoresDeObjetos\8-InicializadoresDeObjetos.csproj", "{7FDEDA00-D5A6-41E3-A2E8-9B6693BF6AED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9-TiposDeInferenciaEDynamic", "9-TiposDeInferenciaEDynamic\9-TiposDeInferenciaEDynamic.csproj", "{B3842A92-2690-4A54-9B6E-34B815FFB20D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{7FDEDA00-D5A6-41E3-A2E8-9B6693BF6AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FDEDA00-D5A6-41E3-A2E8-9B6693BF6AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FDEDA00-D5A6-41E3-A2E8-9B6693BF6AED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3842A92-2690-4A54-9B6E-34B815FFB20D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3842A92-2690-4A54-9B6E-34B815FFB20D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3842A92-2690-4A54-9B6E-34B815FFB20D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3842A92-2690-4A54-9B6E-34B815FFB20D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
