@@ -19,7 +19,7 @@ namespace AlocacaoMemoriaDotNet
             int x = 10;
 
             DobrarValueType(x);
-            Console.WriteLine(x); //Copia criada para outra posicao de memoria. O valor original sera alterado.  
+            Console.WriteLine(x); //Copia criada para outra posicao de memoria. O valor original nao sera alterado.  
 
             DobrarValueType(ref x); //O parametro eh tratado como valor de referencia. O valor original sera alterado. 
             Console.WriteLine(x);
