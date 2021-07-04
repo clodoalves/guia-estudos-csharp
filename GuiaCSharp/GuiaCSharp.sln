@@ -25,7 +25,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-ClassesEstaticasEMembros
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-MetodosDeExtensao", "11-MetodosDeExtensao\11-MetodosDeExtensao.csproj", "{D6AB7A0B-954A-4812-8EA2-27C3E51D9AE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-ClassesParciais", "12-ClassesParciais\12-ClassesParciais.csproj", "{628B1017-F190-4F01-BD6B-9822A14EF429}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12-ClassesParciais", "12-ClassesParciais\12-ClassesParciais.csproj", "{628B1017-F190-4F01-BD6B-9822A14EF429}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-ClassesGenericas", "13-ClassesGenericas\13-ClassesGenericas.csproj", "{61E63A79-EF13-4BE5-AA64-6B27CE6F2CE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{628B1017-F190-4F01-BD6B-9822A14EF429}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{628B1017-F190-4F01-BD6B-9822A14EF429}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{628B1017-F190-4F01-BD6B-9822A14EF429}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61E63A79-EF13-4BE5-AA64-6B27CE6F2CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61E63A79-EF13-4BE5-AA64-6B27CE6F2CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61E63A79-EF13-4BE5-AA64-6B27CE6F2CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61E63A79-EF13-4BE5-AA64-6B27CE6F2CE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
