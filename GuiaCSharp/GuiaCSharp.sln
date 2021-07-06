@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12-ClassesParciais", "12-Cl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-ClassesGenericas", "13-ClassesGenericas\13-ClassesGenericas.csproj", "{61E63A79-EF13-4BE5-AA64-6B27CE6F2CE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14-ParametrosNomeados", "14-ParametrosNomeados\14-ParametrosNomeados.csproj", "{FDEF4E04-A3D6-4B7C-A83C-EFC6AAC70DE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{61E63A79-EF13-4BE5-AA64-6B27CE6F2CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61E63A79-EF13-4BE5-AA64-6B27CE6F2CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61E63A79-EF13-4BE5-AA64-6B27CE6F2CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDEF4E04-A3D6-4B7C-A83C-EFC6AAC70DE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDEF4E04-A3D6-4B7C-A83C-EFC6AAC70DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDEF4E04-A3D6-4B7C-A83C-EFC6AAC70DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDEF4E04-A3D6-4B7C-A83C-EFC6AAC70DE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
