@@ -11,7 +11,7 @@ namespace EstruturasCSharp
     /// <para> Este exemplo demostra: </para>
     /// <para> - Como definir algumas estruturas de dados na linguagem C#, usando 
     /// a abordagem de alocacao dinamica (referencia) e estatica (valor) </para> 
-    /// <para> - A diferenca entre os tipos de dados criados, como com insta.</para>
+    /// <para> - A diferenca entre os tipos de dados criados, como com instanciar, comparar e referenciar estes objetos.</para>
     /// </summary>
     class Program
     {
@@ -35,8 +35,8 @@ namespace EstruturasCSharp
             PosicaoStruct pos3 = new PosicaoStruct();
             pos3.X = 40;
             pos3.Y = 50;
-            PosicaoStruct pos4;
 
+            PosicaoStruct pos4;
             pos4 = pos3; //Value type. Deep copy. 
             pos4.X = 100;
 

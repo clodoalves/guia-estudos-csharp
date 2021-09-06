@@ -7,8 +7,33 @@ using System.Threading.Tasks;
 namespace ConstrutoresEOverloads
 {
     /// <summary>
-    /// 
+    /// <para> Este exemplo demostra: </para>
+    /// <para> Classes com sobrecarga de construtor (overload)</para>
     /// </summary>
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Cliente cliente = new Cliente();
+            cliente.Codigo = 123;
+            cliente.Nome = "Jose";
+            cliente.Contato.Tipo = "Telefone";
+            cliente.Contato.Descricao = "99999999";
+
+            Cliente cliente2 = new Cliente();
+
+            Cliente cliente3 = new Cliente(444);
+
+            Cliente cliente4 = new ClienteVip(111, "Jose");
+
+            Console.WriteLine(cliente);
+            Console.WriteLine(cliente2);
+            Console.WriteLine(cliente3);
+            Console.WriteLine(cliente4);
+
+            Console.ReadLine();
+        }
+    }
     public class Contato 
     {
         public string Tipo;
@@ -70,32 +95,5 @@ namespace ConstrutoresEOverloads
         }
     }
 
-    /// <summary>
-    /// <para> Este exemplo demostra: </para>
-    /// <para> Classes com sobrecarga de construtor (overload)</para>
-    /// </summary>
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Cliente cliente = new Cliente();
-            cliente.Codigo = 123;
-            cliente.Nome = "Jose";
-            cliente.Contato.Tipo = "Telefone";
-            cliente.Contato.Descricao = "99999999";
 
-            Cliente cliente2 = new Cliente();
-
-            Cliente cliente3 = new Cliente(444);
-
-            Cliente cliente4 = new ClienteVip(111, "Jose");
-
-            Console.WriteLine(cliente);
-            Console.WriteLine(cliente2);
-            Console.WriteLine(cliente3);
-            Console.WriteLine(cliente4);
-
-            Console.ReadLine();
-        }
-    }
 }
