@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14-ParametrosNomeados", "14
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15-ParametrosOpcionais", "15-ParametrosOpcionais\15-ParametrosOpcionais.csproj", "{AFB14741-5C02-4EA4-9F30-237B098DF239}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16-SobrecargaMetodos", "16-SobrecargaMetodos\16-SobrecargaMetodos.csproj", "{EACF2445-38E1-4BA0-B19F-9DB2C6E257B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{AFB14741-5C02-4EA4-9F30-237B098DF239}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFB14741-5C02-4EA4-9F30-237B098DF239}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFB14741-5C02-4EA4-9F30-237B098DF239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EACF2445-38E1-4BA0-B19F-9DB2C6E257B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EACF2445-38E1-4BA0-B19F-9DB2C6E257B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EACF2445-38E1-4BA0-B19F-9DB2C6E257B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EACF2445-38E1-4BA0-B19F-9DB2C6E257B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
