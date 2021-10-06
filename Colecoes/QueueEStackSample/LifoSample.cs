@@ -5,8 +5,11 @@ namespace QueueEStackSample
 {
     public class LifoSample
     {
+        public LifoSample()
+        {
+            PilhaPratos = new Stack();
+        }       
         public Stack PilhaPratos;
-
         public void PreencherPilha()
         {
             PilhaPratos.Push("Prato1");

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections;
 
 namespace QueueEStackSample
 {
@@ -7,15 +6,13 @@ namespace QueueEStackSample
     {
         static void Main(string[] args)
         {
-            ExecutarLifoSample();
+            ExecutarFifoSample();
             Console.ReadLine();
         }
 
         public static void ExecutarFifoSample()
         {
             FifoSample fifoSample = new FifoSample();
-
-            fifoSample.FilaAtendimento = new Queue();
 
             fifoSample.PreencherFila();
 
@@ -38,8 +35,6 @@ namespace QueueEStackSample
         public static void ExecutarLifoSample()
         {
             LifoSample lifoSample = new LifoSample();
-
-            lifoSample.PilhaPratos = new Stack();
 
             lifoSample.PreencherPilha();
 

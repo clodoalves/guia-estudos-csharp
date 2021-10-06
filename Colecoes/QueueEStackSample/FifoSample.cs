@@ -1,13 +1,16 @@
-using System;
 using System.Collections;
 using System.Text;
 
 namespace QueueEStackSample
 {
     public class FifoSample
-    {
+    {   
+        public FifoSample()
+        {
+            FilaAtendimento = new Queue();
+        }
         public Queue FilaAtendimento;
-
+    
         public void PreencherFila() 
         {
             FilaAtendimento.Enqueue("Joao");
