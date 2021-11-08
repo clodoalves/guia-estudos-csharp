@@ -7,82 +7,77 @@ using System.Threading.Tasks;
 
 namespace SobrecargaMetodosOverride
 {
-    public class Musica 
+    public abstract class Arquivo 
     {
         public string Nome;
         public double Tamanho;
-        public void Abrir() 
+        public virtual void Abrir() 
         {
-            Console.WriteLine($"Tocando musica: {Nome}");
+            Console.WriteLine($"Log - Abrindo Arquivo: {Nome}");
         }
 
-       
+        //public abstract void Abrir();
+    }
+    public class Musica : Arquivo
+    {
+        public override void Abrir() 
+        {
+            base.Abrir();
+            Console.WriteLine($"Tocando musica: {Nome}");
+        }      
     }
 
-    public class DocumentoWord
+    public class DocumentoWord : Arquivo
     {
-        public string Nome;
-        public double Tamanho;
-
-        public void Abrir()
+        public override void Abrir()
         {
+            base.Abrir();
             Console.WriteLine($"Abrindo documento: {Nome}");
         }
     }
 
-    public class Imagem
+    public class Imagem : Arquivo
     {
-        public string Nome;
-        public double Tamanho;
-
-        public void Abrir()
+        public override void Abrir()
         {
+            base.Abrir();
             Console.WriteLine($"Exibindo imagem: {Nome}");
         }
     }
 
-    public class PlanilhaExcel
+    public class PlanilhaExcel : Arquivo
     {
-        public string Nome;
-        public double Tamanho;
-
-        public void Abrir()
+        public override void Abrir()
         {
+            base.Abrir();
             Console.WriteLine($"Abrindo planilha: {Nome}");
         }
     }
 
     public class Windows
     {
-        private ArrayList _arquivos;
+        private List<Arquivo> _arquivos;
 
         public Windows()
         {
-            _arquivos = new ArrayList();
+            _arquivos = new List<Arquivo>();
         }
 
-        public void AdicionarArquivo(object arquivo)
+        public void AdicionarArquivo(Arquivo arquivo)
         {
             _arquivos.Add(arquivo);
         }
 
-        public void AbrirArquivo(object arquivo)
+        public void AbrirArquivo(Arquivo arquivo)
         {
-            if (arquivo is Musica musica)
+            arquivo.Abrir();
+        }
+
+        public void AbrirTodos() 
+        {
+            foreach (Arquivo item in _arquivos)
             {
-                musica.Abrir();
-            }
-            else if (arquivo is DocumentoWord documentoWord)
-            {
-                documentoWord.Abrir();
-            }
-            else if (arquivo is Imagem imagem)
-            {
-                imagem.Abrir();
-            }
-            else if (arquivo is PlanilhaExcel planilhaExcel)
-            {
-                planilhaExcel.Abrir();
+                AbrirArquivo(item);
             }
         }
     }

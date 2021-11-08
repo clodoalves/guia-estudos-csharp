@@ -19,20 +19,22 @@ namespace SobrecargaMetodosOverride
         {
             Windows windows = new Windows();
 
-            Musica musica = new Musica { Nome = "Pink Floyd - Learning To Fly.mp3" };
-            DocumentoWord documentoWord = new DocumentoWord { Nome = "Trabalho da faculdade.doc" };
-            Imagem imagem = new Imagem { Nome = "Floresta Amazonica.jpg" };
-            PlanilhaExcel planilhaExcel = new PlanilhaExcel { Nome = "Planilha de gastos.xls" };
+            Arquivo musica = new Musica { Nome = "Pink Floyd - Learning To Fly.mp3" };
+            Arquivo documentoWord = new DocumentoWord { Nome = "Trabalho da faculdade.doc" };
+            Arquivo imagem = new Imagem { Nome = "Floresta Amazonica.jpg" };
+            Arquivo planilhaExcel = new PlanilhaExcel { Nome = "Planilha de gastos.xls" };
 
             windows.AdicionarArquivo(musica);
             windows.AdicionarArquivo(documentoWord);
             windows.AdicionarArquivo(imagem);
             windows.AdicionarArquivo(planilhaExcel);
 
-            windows.AbrirArquivo(musica);
-            windows.AbrirArquivo(documentoWord);
-            windows.AbrirArquivo(imagem);
-            windows.AbrirArquivo(planilhaExcel);
+            //windows.AbrirArquivo(musica);
+            //windows.AbrirArquivo(documentoWord);
+            //windows.AbrirArquivo(imagem);
+            //windows.AbrirArquivo(planilhaExcel);
+
+            windows.AbrirTodos();
 
             Console.ReadLine();
         }
