@@ -45,9 +45,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Delegates", "02-Delegate
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19-Delegacao", "19-Delegacao\19-Delegacao.csproj", "{D594B484-F08E-442B-8760-2C6DF1AE22F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventos", "Eventos\Eventos.csproj", "{14A15657-13E5-427F-A5EA-623F3F250407}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20-Eventos", "20-Eventos\20-Eventos.csproj", "{14A15657-13E5-427F-A5EA-623F3F250407}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventosRuntime", "EventosRuntime\EventosRuntime.csproj", "{4207FFC7-188D-4541-A358-12CF85B396C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21-EventosRuntime", "21-EventosRuntime\21-EventosRuntime.csproj", "{4207FFC7-188D-4541-A358-12CF85B396C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
