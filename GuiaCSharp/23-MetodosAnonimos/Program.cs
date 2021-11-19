@@ -20,10 +20,5 @@ namespace MetodosAnonimos
             pedido.Fechar(500);
             Console.ReadLine();
         }
-
-        private static void Pedido_Pagar(double valor)
-        {
-            Console.WriteLine($"Boleto pago no valor de {valor}");
-        }
     }
 }
