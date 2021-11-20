@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{73ED4E22-64E1-468F-809C-0B781DB28020}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DelegatePredicate</RootNamespace>
-    <AssemblyName>DelegatePredicate</AssemblyName>
+    <RootNamespace>26-DelegatePredicate</RootNamespace>
+    <AssemblyName>26-DelegatePredicate</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

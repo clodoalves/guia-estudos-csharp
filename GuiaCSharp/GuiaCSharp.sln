@@ -57,7 +57,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24-ExpressoesLambda", "24-E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25-DelegateAction", "25-DelegateAction\25-DelegateAction.csproj", "{5ADFAF7D-DE2D-4FFB-B6AA-4937A9975A58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatePredicate", "DelegatePredicate\DelegatePredicate.csproj", "{73ED4E22-64E1-468F-809C-0B781DB28020}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26-DelegatePredicate", "26-DelegatePredicate\26-DelegatePredicate.csproj", "{73ED4E22-64E1-468F-809C-0B781DB28020}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27-DelegateFunc", "27-DelegateFunc\27-DelegateFunc.csproj", "{726385E9-8B3D-4E39-A5CF-CDC9BEBDE461}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -169,6 +171,10 @@ Global
 		{73ED4E22-64E1-468F-809C-0B781DB28020}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73ED4E22-64E1-468F-809C-0B781DB28020}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73ED4E22-64E1-468F-809C-0B781DB28020}.Release|Any CPU.Build.0 = Release|Any CPU
+		{726385E9-8B3D-4E39-A5CF-CDC9BEBDE461}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{726385E9-8B3D-4E39-A5CF-CDC9BEBDE461}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{726385E9-8B3D-4E39-A5CF-CDC9BEBDE461}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{726385E9-8B3D-4E39-A5CF-CDC9BEBDE461}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -200,6 +206,7 @@ Global
 		{645BB5E8-308D-4A66-B7FC-7E54A082FC7F} = {AB724793-85FD-44BB-A992-C7BF291905B9}
 		{5ADFAF7D-DE2D-4FFB-B6AA-4937A9975A58} = {AB724793-85FD-44BB-A992-C7BF291905B9}
 		{73ED4E22-64E1-468F-809C-0B781DB28020} = {AB724793-85FD-44BB-A992-C7BF291905B9}
+		{726385E9-8B3D-4E39-A5CF-CDC9BEBDE461} = {AB724793-85FD-44BB-A992-C7BF291905B9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CB56F732-2789-4E83-BC6F-E86FB8ECC3EF}
