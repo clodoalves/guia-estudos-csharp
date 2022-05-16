@@ -69,6 +69,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "29-TratamentoExcecoesPeloTi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30-InstanciasDeExcecao", "30-InstanciasDeExcecao\30-InstanciasDeExcecao.csproj", "{88FE005B-5CA5-4A62-B3E7-8025928416E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "31-PropagandoExceptionsComThrow", "PropagandoExceptionsComThrow\31-PropagandoExceptionsComThrow.csproj", "{817477BB-8CF7-440E-8348-5662D66C01C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +197,10 @@ Global
 		{88FE005B-5CA5-4A62-B3E7-8025928416E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88FE005B-5CA5-4A62-B3E7-8025928416E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88FE005B-5CA5-4A62-B3E7-8025928416E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{817477BB-8CF7-440E-8348-5662D66C01C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{817477BB-8CF7-440E-8348-5662D66C01C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{817477BB-8CF7-440E-8348-5662D66C01C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{817477BB-8CF7-440E-8348-5662D66C01C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -230,6 +236,7 @@ Global
 		{40191545-F42D-4897-A71F-18F98F4BF319} = {763DED7A-8DA0-4998-A7EA-8F71F22B994A}
 		{61E357BE-8D76-461E-B316-354E9469B3A6} = {763DED7A-8DA0-4998-A7EA-8F71F22B994A}
 		{88FE005B-5CA5-4A62-B3E7-8025928416E1} = {763DED7A-8DA0-4998-A7EA-8F71F22B994A}
+		{817477BB-8CF7-440E-8348-5662D66C01C4} = {763DED7A-8DA0-4998-A7EA-8F71F22B994A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CB56F732-2789-4E83-BC6F-E86FB8ECC3EF}
