@@ -69,9 +69,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "29-TratamentoExcecoesPeloTi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30-InstanciasDeExcecao", "30-InstanciasDeExcecao\30-InstanciasDeExcecao.csproj", "{88FE005B-5CA5-4A62-B3E7-8025928416E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "31-PropagandoExceptionsComThrow", "PropagandoExceptionsComThrow\31-PropagandoExceptionsComThrow.csproj", "{817477BB-8CF7-440E-8348-5662D66C01C4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "31-PropagandoExceptionsComThrow", "31-PropagandoExceptionsComThrow\31-PropagandoExceptionsComThrow.csproj", "{817477BB-8CF7-440E-8348-5662D66C01C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "32-CriandoCustomExceptions", "CriandoCustomExceptions\32-CriandoCustomExceptions.csproj", "{38C822C8-985A-479C-AC3D-39DADCABD1FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "32-CriandoCustomExceptions", "32-CriandoCustomExceptions\32-CriandoCustomExceptions.csproj", "{38C822C8-985A-479C-AC3D-39DADCABD1FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
