@@ -1,6 +1,6 @@
 using System;
 
-namespace InterfacesEClassesAbstratas
+namespace _33_InterfacesEClassesAbstratas
 {
     interface IDBConection
     {
@@ -44,7 +44,7 @@ namespace InterfacesEClassesAbstratas
             base.OpenConnection();
             Console.WriteLine("Configuracao especifica - Oracle");
         }
-        public void CloseConnection()
+        public override void CloseConnection()
         {
             base.CloseConnection();
             Console.WriteLine("Configuracao especifica - Oracle");
