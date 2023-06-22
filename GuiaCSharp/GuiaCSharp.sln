@@ -81,6 +81,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "35-ImplementandoIDisposible
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36-ImplementandoIEnumerable", "36-ImplementandoIEnumerable\36-ImplementandoIEnumerable.csproj", "{13BD524F-80FC-4A05-8FA6-B2B560A63B8D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-Colecoes", "05-Colecoes", "{DB7B94DF-47EE-49BA-918B-6FD317193D78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "37-ArrayList", "37-ArrayList\37-ArrayList.csproj", "{026D81BB-6E2C-48F1-BE61-D14FF49D9E83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -227,6 +231,10 @@ Global
 		{13BD524F-80FC-4A05-8FA6-B2B560A63B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13BD524F-80FC-4A05-8FA6-B2B560A63B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13BD524F-80FC-4A05-8FA6-B2B560A63B8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{026D81BB-6E2C-48F1-BE61-D14FF49D9E83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{026D81BB-6E2C-48F1-BE61-D14FF49D9E83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{026D81BB-6E2C-48F1-BE61-D14FF49D9E83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{026D81BB-6E2C-48F1-BE61-D14FF49D9E83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -267,6 +275,7 @@ Global
 		{99DB9A61-3142-4CEA-A6EA-AF62057DA050} = {59810EB6-A266-4779-BA7D-C9D3E9FBE707}
 		{026461AF-7B13-420A-B690-98AE981128E2} = {59810EB6-A266-4779-BA7D-C9D3E9FBE707}
 		{13BD524F-80FC-4A05-8FA6-B2B560A63B8D} = {59810EB6-A266-4779-BA7D-C9D3E9FBE707}
+		{026D81BB-6E2C-48F1-BE61-D14FF49D9E83} = {DB7B94DF-47EE-49BA-918B-6FD317193D78}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CB56F732-2789-4E83-BC6F-E86FB8ECC3EF}
