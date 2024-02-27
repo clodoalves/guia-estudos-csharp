@@ -4,27 +4,30 @@ using System.Data;
 
 namespace _37_ArrayList
 {
-    public class Program
+    internal class Program
     {
-        static void Main()
+        public static void Main(string[] args)
         {
             ArrayList arrayList = new ArrayList();
 
-            arrayList.Add("Joao");
             arrayList.Add("Jose");
-            arrayList.Add("Maria");
-            arrayList.Add("Severina");
-            arrayList.Add(20);
-            arrayList.Add(new DataSet());
+            arrayList.Add("João");
+            arrayList.Add("Severino");
+            arrayList.Add(10);
+            arrayList.Add(new DataSet("Teste"));
 
-            foreach (var element in arrayList)
+            foreach (var item in arrayList)
             {
-                Console.WriteLine(element);
+                Console.WriteLine(item);
             }
             
-            Console.WriteLine($"Array count: {arrayList.Count}");
-            Console.WriteLine($"Array capacity: {arrayList.Capacity}");
+            var dataSetName = (arrayList[4] as DataSet).DataSetName;
             
+            Console.WriteLine(dataSetName);
+            
+            Console.WriteLine($"ArrayList count: {arrayList.Count}");
+            Console.WriteLine($"ArrayList capacity: {arrayList.Capacity}");
+
             Console.ReadLine();
         }
     }
